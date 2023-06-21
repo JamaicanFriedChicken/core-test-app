@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa322c53454393ed775cfe4807d54a50",
+    "content-hash": "50cd9a515882e93996b160bf736566cb",
     "packages": [
         {
             "name": "brick/math",
@@ -973,6 +973,41 @@
                 }
             ],
             "time": "2021-10-07T12:57:01+00:00"
+        },
+        {
+            "name": "jamaicanfriedchicken/inspire",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JamaicanFriedChicken/inspire.git",
+                "reference": "d2ebc6352216b154a7ecf9443c719eb0e49419e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JamaicanFriedChicken/inspire/zipball/d2ebc6352216b154a7ecf9443c719eb0e49419e6",
+                "reference": "d2ebc6352216b154a7ecf9443c719eb0e49419e6",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JamaicanFriedChicken\\Inspire\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "JamaicanFriedChicken",
+                    "email": "mikey_lue777@hotmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/JamaicanFriedChicken/inspire/tree/1.0.0",
+                "issues": "https://github.com/JamaicanFriedChicken/inspire/issues"
+            },
+            "time": "2023-06-21T04:35:56+00:00"
         },
         {
             "name": "laravel/framework",
